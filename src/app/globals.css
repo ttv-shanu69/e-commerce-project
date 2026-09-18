@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+    --primary-color: #586e60;
+    --Dark-Brown: #3f2819;
+    --cartBtn-bg: #28A745;
+}
+
+.cartBtn-bg {
+  background-color: rgb(150, 8, 8);
+}
+.primary-bg-color {
+    background: var(--primary-color);
+}
+.primary-text-color {
+    color: var(--primary-color);
+}
+.brown-color {
+    color: var(--Dark-Brown)
+}
+.whatsapp-btn {
+  border-radius: 50%;
+}
+.insta-color {
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}
